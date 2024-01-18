@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./Galeria.css">
+    <!-- magnific-popup css cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <!--Icon-Font-->
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+
+
+    <title>Navbar Animação em Bolha</title>
+    
+
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="/" class="logo"><img src="./Logomarca.png" alt=""></a>
+        <button class="hamburger"></button>
+        <ul class="nav-list">
+          <li><a href="./index.html" style="color: black;background-color: white; border-radius: 5px; border: 2px solid #343a40; padding: 10px;  box-sizing: border-box; box-shadow:  10px 10px rgba(0, 0, 0, 1.5); color: #313132;">Início</a></li>
+          <li><a href="./Galeria.html" style="color: black;background-color: white; border-radius: 5px; border: 2px solid #343a40; padding: 10px;  box-sizing: border-box; box-shadow:  10px 10px rgba(0, 0, 0, 1.5); color:#313132;">Galeria</a></li>
+          <li><a href="./Hospedagem.html" style="color: black;background-color: white; border-radius: 5px; border: 2px solid #343a40; padding: 10px;  box-sizing: border-box; box-shadow:  10px 10px rgba(0, 0, 0, 1.5); color: #313132;">Hospedagem</a></li>
+          <li><a href="./Contato.html" style="color: black;background-color: white; border-radius: 5px; border: 2px solid #343a40; padding: 10px;  box-sizing: border-box; box-shadow:  10px 10px rgba(0, 0, 0, 1.5); color: #313132;">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container-main">
+      
+  
+<div class="gallery">
+
+    <ul class="controls">
+        <li class="buttons active" data-filter="all" style="box-shadow:10px 10px rgba(0, 0, 0, 1.5);  border: 2px solid #343a40; border-radius: 5px;">Todos</li>
+        <li class="buttons" data-filter="ice-cream" style="box-shadow:10px 10px rgba(0, 0, 0, 1.5);  border: 2px solid #343a40; border-radius: 5px;">Quarto-Luxo</li>
+        <li class="buttons" data-filter="chocolate" style="box-shadow:10px 10px rgba(0, 0, 0, 1.5); border: 2px solid #343a40; border-radius: 5px; width: 250px;">Suite Executiva</li>
+        <li class="buttons" data-filter="cake" style="box-shadow:10px 10px rgba(0, 0, 0, 1.5); ; border: 2px solid #343a40; border-radius: 5px; width: 250px;">Quarto-Standard</li>
+        <li class="buttons" data-filter="juice" style="box-shadow:10px 10px rgba(0, 0, 0, 1.5); border: 2px solid #343a40; border-radius: 5px; width: 250px">Cachoeiras</li>
+        <li class="buttons" data-filter="sandwich" style="box-shadow:10px 10px rgba(0, 0, 0, 1.5); ; border: 2px solid #343a40; border-radius: 5px;">Trilhas</li>
+    </ul>
+
+    <div class="image-container">
+
+        <a href="./pexels-chedi-tanabene-1751128.jpg" class="image ice-cream">
+            <img src="./pexels-chedi-tanabene-1751128.jpg" alt="">
+        </a>
+        <a href="images/ice-cream2.jpg" class="image ice-cream">
+            <img src="images/ice-cream2.jpg" alt="">
+        </a>
+        <a href="images/ice-cream3.jpg" class="image ice-cream">
+            <img src="images/ice-cream3.jpg" alt="">
+        </a>
+
+        <a href="images/chocolate1.jpg" class="image chocolate">
+            <img src="images/chocolate1.jpg" alt="">
+        </a>
+        <a href="images/chocolate2.jpg" class="image chocolate">
+            <img src="images/chocolate2.jpg" alt="">
+        </a>
+
+        <a href="images/cake1.jpg" class="image cake">
+            <img src="images/cake1.jpg" alt="">
+        </a>
+        <a href="images/cake2.jpg" class="image cake">
+            <img src="images/cake2.jpg" alt="">
+        </a>
+        <a href="images/cake3.jpg" class="image cake">
+            <img src="images/cake3.jpg" alt="">
+        </a>
+        <a href="images/cake4.jpg" class="image cake">
+            <img src="images/cake4.jpg" alt="">
+        </a>
+        <a href="images/cake5.jpg" class="image cake">
+            <img src="images/cake5.jpg" alt="">
+        </a>
+
+        <a href="images/juice1.jpg" class="image juice">
+            <img src="images/juice1.jpg" alt="">
+        </a>
+        <a href="images/juice2.jpg" class="image juice">
+            <img src="images/juice2.jpg" alt="">
+        </a>
+        <a href="images/juice3.jpg" class="image juice">
+            <img src="images/juice3.jpg" alt="">
+        </a>
+
+        <a href="images/sandwich1.jpg" class="image sandwich">
+            <img src="images/sandwich1.jpg" alt="">
+        </a>
+        <a href="images/sandwich2.jpg" class="image sandwich">
+            <img src="images/sandwich2.jpg" alt="">
+        </a>
+        <a href="images/sandwich3.jpg" class="image sandwich">
+            <img src="images/sandwich3.jpg" alt="">
+        </a>
+        <a href="images/sandwich4.jpg" class="image sandwich">
+            <img src="images/sandwich4.jpg" alt="">
+        </a>
+
+    </div>
+
+</div>
+
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- magnific popup js cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+<script>
+
+$(document).ready(function(){
+
+    $('.buttons').click(function(){
+
+        $(this).addClass('active').siblings().removeClass('active');
+
+        var filter = $(this).attr('data-filter')
+
+        if(filter == 'all'){
+            $('.image').show(400);
+        }else{
+            $('.image').not('.'+filter).hide(200);
+            $('.image').filter('.'+filter).show(400);
+        }
+
+    });
+
+    $('.gallery').magnificPopup({
+
+        delegate:'a',
+        type:'image',
+        gallery:{
+            enabled:true
+        }
+
+    });
+
+});
+
+</script>
+
+
+    </main>
+    <!-- Footer -->
+    <!-- <footer>
+      <div class="contact">
+          <h3>Contato</h3>
+          <p>Email: contato@seusite.com</p>
+          <p>Telefone: (123) 456-7890</p>
+      </div>
+      
+      <div class="useful-links">
+          <h3>Links Úteis</h3>
+          <ul>
+              <li><a href="#">Página Inicial</a></li>
+              <li><a href="#">Sobre Nós</a></li>
+              <li><a href="#">Serviços</a></li>
+              <li><a href="#">Contato</a></li>
+          </ul>
+      </div>
+      
+      <div class="social-media">
+          <h3>Redes Sociais</h3>
+          <ul>
+              <li><a href="#" target="_blank">Facebook</a></li>
+              <li><a href="#" target="_blank">Twitter</a></li>
+              <li><a href="#" target="_blank">Instagram</a></li>
+          </ul>
+      </div>
+
+      <div class="social-media">
+        <h5>Feito por:</h5>
+        <ul>
+            <li><img src="./Logomarca.png" alt="" style="width: 7%;"></li>
+        </ul>
+    </div>
+  </footer> -->
+    <!-- Fim -->
+    
+    <footer>
+        <div class="contact">
+            <h3>Contato</h3>
+            <p>Email: contato@seusite.com</p>
+            <p>Telefone: (123) 456-7890</p>
+        </div>
+    
+        <div class="useful-links">
+            <h3>Links Úteis</h3>
+            <ul>
+                <li><a href="./index.html">Início</a></li>
+                <li><a href="./Galeria.html">Galeria</a></li>
+                <li><a href="./Hospedagem.html">Hospedagem</a></li>
+                <li><a href="./Contato.html">Contato</a></li>
+            </ul>
+        </div>
+    
+        <div class="social-media">
+            <h3>Redes Sociais</h3>
+            <ul>
+                <li><a href="#" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+            </ul>
+        </div>
+    
+        <div class="social-media">
+            <h5>Feito por:</h5>
+            <ul>
+                <li><img src="./Logomarca.png" alt="" style="width: 7%;"></li>
+            </ul>
+        </div>
+    </footer>
+    
+
+   
+  </body>
+</html>

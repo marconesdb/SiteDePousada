@@ -1,0 +1,79 @@
+/* Adicione estilos específicos para a página de Hospedagem */
+
+.container-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.quarto {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    overflow: hidden; /* Garante que a transição não cause o overflow da imagem */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease; /* Adiciona uma transição suave no hover */
+    cursor: pointer;
+}
+
+.quarto:hover {
+    transform: scale(1.1); /* Aumenta o tamanho do quarto no hover */
+}
+
+.quarto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Adiciona uma transição suave na imagem */
+}
+
+.quarto:hover img {
+    transform: scale(1.1); /* Aumenta o tamanho da imagem no hover */
+}
+
+.quarto p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Estilos adicionais para tornar o layout responsivo conforme necessário */
+
+/* Estilos para o Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Adicionado para centralizar a imagem */
+
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.full-image {
+    width: 100%;
+    height: auto;
+}
