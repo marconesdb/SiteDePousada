@@ -56,3 +56,10 @@
     border: 1px solid #ccc;
     border-radius: 10px;
 }
+
+.telefone{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
